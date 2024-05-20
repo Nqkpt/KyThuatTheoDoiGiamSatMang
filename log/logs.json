@@ -1,0 +1,1095 @@
+[
+  {
+    "_index": "packets-2024-03-25",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "\\Device\\NPF_Loopback"
+          },
+          "frame.encap_type": "15",
+          "frame.time": "Mar 25, 2024 20:35:07.562660000 SE Asia Standard Time",
+          "frame.time_utc": "Mar 25, 2024 13:35:07.562660000 UTC",
+          "frame.time_epoch": "1711373707.562660000",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.419737000",
+          "frame.time_delta_displayed": "0.000000000",
+          "frame.time_relative": "4.494208000",
+          "frame.number": "19",
+          "frame.len": "65",
+          "frame.cap_len": "65",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "null:ipv6:tcp:http:data",
+          "frame.coloring_rule.name": "HTTP",
+          "frame.coloring_rule.string": "http || tcp.port == 80 || http2"
+        },
+        "null": {
+          "null.family": "24"
+        },
+        "ipv6": {
+          "ipv6.version": "6",
+          "ip.version": "6",
+          "ipv6.tclass": "0x00000000",
+          "ipv6.tclass_tree": {
+            "ipv6.tclass.dscp": "0",
+            "ipv6.tclass.ecn": "0"
+          },
+          "ipv6.flow": "0x025017",
+          "ipv6.plen": "21",
+          "ipv6.nxt": "6",
+          "ipv6.hlim": "128",
+          "ipv6.src": "::1",
+          "ipv6.addr": "::1",
+          "ipv6.src_host": "::1",
+          "ipv6.host": "::1",
+          "ipv6.dst": "::1",
+          "ipv6.addr": "::1",
+          "ipv6.dst_host": "::1",
+          "ipv6.host": "::1"
+        },
+        "tcp": {
+          "tcp.srcport": "55156",
+          "tcp.dstport": "80",
+          "tcp.port": "55156",
+          "tcp.port": "80",
+          "tcp.stream": "2",
+          "tcp.completeness": "28",
+          "tcp.completeness_tree": {
+            "tcp.completeness.rst": "0",
+            "tcp.completeness.fin": "1",
+            "tcp.completeness.data": "1",
+            "tcp.completeness.ack": "1",
+            "tcp.completeness.syn-ack": "0",
+            "tcp.completeness.syn": "0",
+            "tcp.completeness.str": "·FDA··"
+          },
+          "tcp.len": "1",
+          "tcp.seq": "1",
+          "tcp.seq_raw": "3912854862",
+          "tcp.nxtseq": "2",
+          "tcp.ack": "1",
+          "tcp.ack_raw": "4244023622",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x0010",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ece": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "0",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······A····"
+          },
+          "tcp.window_size_value": "10230",
+          "tcp.window_size": "10230",
+          "tcp.window_size_scalefactor": "-1",
+          "tcp.checksum": "0xb351",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "Timestamps": {
+            "tcp.time_relative": "0.000000000",
+            "tcp.time_delta": "0.000000000"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.bytes_in_flight": "1",
+            "tcp.analysis.push_bytes_sent": "1"
+          },
+          "tcp.payload": "00"
+        },
+        "http": {
+          "http.file_data": "00",
+          "data": {
+            "data.data": "00",
+            "data.len": "1"
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2024-03-25",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "\\Device\\NPF_Loopback"
+          },
+          "frame.encap_type": "15",
+          "frame.time": "Mar 25, 2024 20:35:07.562684000 SE Asia Standard Time",
+          "frame.time_utc": "Mar 25, 2024 13:35:07.562684000 UTC",
+          "frame.time_epoch": "1711373707.562684000",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.000024000",
+          "frame.time_delta_displayed": "0.000024000",
+          "frame.time_relative": "4.494232000",
+          "frame.number": "20",
+          "frame.len": "76",
+          "frame.cap_len": "76",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "null:ipv6:tcp",
+          "frame.coloring_rule.name": "HTTP",
+          "frame.coloring_rule.string": "http || tcp.port == 80 || http2"
+        },
+        "null": {
+          "null.family": "24"
+        },
+        "ipv6": {
+          "ipv6.version": "6",
+          "ip.version": "6",
+          "ipv6.tclass": "0x00000000",
+          "ipv6.tclass_tree": {
+            "ipv6.tclass.dscp": "0",
+            "ipv6.tclass.ecn": "0"
+          },
+          "ipv6.flow": "0x0fef78",
+          "ipv6.plen": "32",
+          "ipv6.nxt": "6",
+          "ipv6.hlim": "128",
+          "ipv6.src": "::1",
+          "ipv6.addr": "::1",
+          "ipv6.src_host": "::1",
+          "ipv6.host": "::1",
+          "ipv6.dst": "::1",
+          "ipv6.addr": "::1",
+          "ipv6.dst_host": "::1",
+          "ipv6.host": "::1"
+        },
+        "tcp": {
+          "tcp.srcport": "80",
+          "tcp.dstport": "55156",
+          "tcp.port": "80",
+          "tcp.port": "55156",
+          "tcp.stream": "2",
+          "tcp.completeness": "28",
+          "tcp.completeness_tree": {
+            "tcp.completeness.rst": "0",
+            "tcp.completeness.fin": "1",
+            "tcp.completeness.data": "1",
+            "tcp.completeness.ack": "1",
+            "tcp.completeness.syn-ack": "0",
+            "tcp.completeness.syn": "0",
+            "tcp.completeness.str": "·FDA··"
+          },
+          "tcp.len": "0",
+          "tcp.seq": "1",
+          "tcp.seq_raw": "4244023622",
+          "tcp.nxtseq": "1",
+          "tcp.ack": "2",
+          "tcp.ack_raw": "3912854863",
+          "tcp.hdr_len": "32",
+          "tcp.flags": "0x0010",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ece": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "0",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······A····"
+          },
+          "tcp.window_size_value": "10230",
+          "tcp.window_size": "10230",
+          "tcp.window_size_scalefactor": "-1",
+          "tcp.checksum": "0xd028",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "tcp.options": "01:01:05:0a:e9:39:6d:4e:e9:39:6d:4f",
+          "tcp.options_tree": {
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.sack": "05:0a:e9:39:6d:4e:e9:39:6d:4f",
+            "tcp.options.sack_tree": {
+              "tcp.option_kind": "5",
+              "tcp.option_len": "10",
+              "tcp.options.sack_le": "1",
+              "tcp.options.sack_re": "2",
+              "tcp.options.sack.count": "1",
+              "tcp.options.sack.dsack_le": "1",
+              "tcp.options.sack.dsack_re": "2",
+              "D-SACK Sequence": {
+                "_ws.expert": {
+                  "tcp.options.sack.dsack": "",
+                  "_ws.expert.message": "D-SACK Sequence",
+                  "_ws.expert.severity": "6291456",
+                  "_ws.expert.group": "33554432"
+                }
+              }
+            }
+          },
+          "Timestamps": {
+            "tcp.time_relative": "0.000024000",
+            "tcp.time_delta": "0.000024000"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.acks_frame": "19",
+            "tcp.analysis.ack_rtt": "0.000024000"
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2024-03-25",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "\\Device\\NPF_Loopback"
+          },
+          "frame.encap_type": "15",
+          "frame.time": "Mar 25, 2024 20:35:15.935224000 SE Asia Standard Time",
+          "frame.time_utc": "Mar 25, 2024 13:35:15.935224000 UTC",
+          "frame.time_epoch": "1711373715.935224000",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.718476000",
+          "frame.time_delta_displayed": "8.372540000",
+          "frame.time_relative": "12.866772000",
+          "frame.number": "763",
+          "frame.len": "1019",
+          "frame.cap_len": "1019",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "null:ipv6:tcp:http:urlencoded-form",
+          "frame.coloring_rule.name": "HTTP",
+          "frame.coloring_rule.string": "http || tcp.port == 80 || http2"
+        },
+        "null": {
+          "null.family": "24"
+        },
+        "ipv6": {
+          "ipv6.version": "6",
+          "ip.version": "6",
+          "ipv6.tclass": "0x00000000",
+          "ipv6.tclass_tree": {
+            "ipv6.tclass.dscp": "0",
+            "ipv6.tclass.ecn": "0"
+          },
+          "ipv6.flow": "0x025017",
+          "ipv6.plen": "975",
+          "ipv6.nxt": "6",
+          "ipv6.hlim": "128",
+          "ipv6.src": "::1",
+          "ipv6.addr": "::1",
+          "ipv6.src_host": "::1",
+          "ipv6.host": "::1",
+          "ipv6.dst": "::1",
+          "ipv6.addr": "::1",
+          "ipv6.dst_host": "::1",
+          "ipv6.host": "::1"
+        },
+        "tcp": {
+          "tcp.srcport": "55156",
+          "tcp.dstport": "80",
+          "tcp.port": "55156",
+          "tcp.port": "80",
+          "tcp.stream": "2",
+          "tcp.completeness": "28",
+          "tcp.completeness_tree": {
+            "tcp.completeness.rst": "0",
+            "tcp.completeness.fin": "1",
+            "tcp.completeness.data": "1",
+            "tcp.completeness.ack": "1",
+            "tcp.completeness.syn-ack": "0",
+            "tcp.completeness.syn": "0",
+            "tcp.completeness.str": "·FDA··"
+          },
+          "tcp.len": "955",
+          "tcp.seq": "2",
+          "tcp.seq_raw": "3912854863",
+          "tcp.nxtseq": "957",
+          "tcp.ack": "1",
+          "tcp.ack_raw": "4244023622",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x0018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ece": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "10230",
+          "tcp.window_size": "10230",
+          "tcp.window_size_scalefactor": "-1",
+          "tcp.checksum": "0x37b9",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "Timestamps": {
+            "tcp.time_relative": "8.372564000",
+            "tcp.time_delta": "8.372540000"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.bytes_in_flight": "954",
+            "tcp.analysis.push_bytes_sent": "956"
+          },
+          "tcp.payload": "50:4f:53:54:20:2f:64:65:6d:6f:2f:6c:6f:67:69:6e:2e:70:68:70:20:48:54:54:50:2f:31:2e:31:0d:0a:48:6f:73:74:3a:20:6c:6f:63:61:6c:68:6f:73:74:0d:0a:43:6f:6e:6e:65:63:74:69:6f:6e:3a:20:6b:65:65:70:2d:61:6c:69:76:65:0d:0a:43:6f:6e:74:65:6e:74:2d:4c:65:6e:67:74:68:3a:20:35:36:0d:0a:43:61:63:68:65:2d:43:6f:6e:74:72:6f:6c:3a:20:6d:61:78:2d:61:67:65:3d:30:0d:0a:73:65:63:2d:63:68:2d:75:61:3a:20:22:43:68:72:6f:6d:69:75:6d:22:3b:76:3d:22:31:32:32:22:2c:20:22:4e:6f:74:28:41:3a:42:72:61:6e:64:22:3b:76:3d:22:32:34:22:2c:20:22:4d:69:63:72:6f:73:6f:66:74:20:45:64:67:65:22:3b:76:3d:22:31:32:32:22:0d:0a:73:65:63:2d:63:68:2d:75:61:2d:6d:6f:62:69:6c:65:3a:20:3f:30:0d:0a:73:65:63:2d:63:68:2d:75:61:2d:70:6c:61:74:66:6f:72:6d:3a:20:22:57:69:6e:64:6f:77:73:22:0d:0a:55:70:67:72:61:64:65:2d:49:6e:73:65:63:75:72:65:2d:52:65:71:75:65:73:74:73:3a:20:31:0d:0a:4f:72:69:67:69:6e:3a:20:68:74:74:70:3a:2f:2f:6c:6f:63:61:6c:68:6f:73:74:0d:0a:43:6f:6e:74:65:6e:74:2d:54:79:70:65:3a:20:61:70:70:6c:69:63:61:74:69:6f:6e:2f:78:2d:77:77:77:2d:66:6f:72:6d:2d:75:72:6c:65:6e:63:6f:64:65:64:0d:0a:55:73:65:72:2d:41:67:65:6e:74:3a:20:4d:6f:7a:69:6c:6c:61:2f:35:2e:30:20:28:57:69:6e:64:6f:77:73:20:4e:54:20:31:30:2e:30:3b:20:57:69:6e:36:34:3b:20:78:36:34:29:20:41:70:70:6c:65:57:65:62:4b:69:74:2f:35:33:37:2e:33:36:20:28:4b:48:54:4d:4c:2c:20:6c:69:6b:65:20:47:65:63:6b:6f:29:20:43:68:72:6f:6d:65:2f:31:32:32:2e:30:2e:30:2e:30:20:53:61:66:61:72:69:2f:35:33:37:2e:33:36:20:45:64:67:2f:31:32:32:2e:30:2e:30:2e:30:0d:0a:41:63:63:65:70:74:3a:20:74:65:78:74:2f:68:74:6d:6c:2c:61:70:70:6c:69:63:61:74:69:6f:6e:2f:78:68:74:6d:6c:2b:78:6d:6c:2c:61:70:70:6c:69:63:61:74:69:6f:6e:2f:78:6d:6c:3b:71:3d:30:2e:39:2c:69:6d:61:67:65:2f:61:76:69:66:2c:69:6d:61:67:65:2f:77:65:62:70:2c:69:6d:61:67:65:2f:61:70:6e:67:2c:2a:2f:2a:3b:71:3d:30:2e:38:2c:61:70:70:6c:69:63:61:74:69:6f:6e:2f:73:69:67:6e:65:64:2d:65:78:63:68:61:6e:67:65:3b:76:3d:62:33:3b:71:3d:30:2e:37:0d:0a:53:65:63:2d:46:65:74:63:68:2d:53:69:74:65:3a:20:73:61:6d:65:2d:6f:72:69:67:69:6e:0d:0a:53:65:63:2d:46:65:74:63:68:2d:4d:6f:64:65:3a:20:6e:61:76:69:67:61:74:65:0d:0a:53:65:63:2d:46:65:74:63:68:2d:55:73:65:72:3a:20:3f:31:0d:0a:53:65:63:2d:46:65:74:63:68:2d:44:65:73:74:3a:20:64:6f:63:75:6d:65:6e:74:0d:0a:52:65:66:65:72:65:72:3a:20:68:74:74:70:3a:2f:2f:6c:6f:63:61:6c:68:6f:73:74:2f:64:65:6d:6f:2f:6c:6f:67:69:6e:2e:70:68:70:0d:0a:41:63:63:65:70:74:2d:45:6e:63:6f:64:69:6e:67:3a:20:67:7a:69:70:2c:20:64:65:66:6c:61:74:65:2c:20:62:72:0d:0a:41:63:63:65:70:74:2d:4c:61:6e:67:75:61:67:65:3a:20:65:6e:2d:55:53:2c:65:6e:3b:71:3d:30:2e:39:0d:0a:43:6f:6f:6b:69:65:3a:20:50:48:50:53:45:53:53:49:44:3d:74:66:69:67:65:65:69:74:69:6b:36:70:73:71:39:62:6d:66:6e:32:35:71:33:6a:6a:34:0d:0a:0d:0a:75:73:65:72:6e:61:6d:65:3d:75:73:65:72:32:25:32:37:2b:2d:2d:2b:25:32:46:25:32:46:26:70:61:73:73:77:6f:72:64:3d:74:72:61:6e:74:72:6f:6e:67:68:75:79:26:6c:6f:67:69:6e:3d"
+        },
+        "http": {
+          "POST /demo/login.php HTTP/1.1\\r\\n": {
+            "_ws.expert": {
+              "http.chat": "",
+              "_ws.expert.message": "POST /demo/login.php HTTP/1.1\\r\\n",
+              "_ws.expert.severity": "2097152",
+              "_ws.expert.group": "33554432"
+            },
+            "http.request.method": "POST",
+            "http.request.uri": "/demo/login.php",
+            "http.request.version": "HTTP/1.1"
+          },
+          "http.host": "localhost",
+          "http.request.line": "Host: localhost\r\n",
+          "http.connection": "keep-alive",
+          "http.request.line": "Connection: keep-alive\r\n",
+          "http.content_length_header": "56",
+          "http.content_length_header_tree": {
+            "http.content_length": "56"
+          },
+          "http.request.line": "Content-Length: 56\r\n",
+          "http.cache_control": "max-age=0",
+          "http.request.line": "Cache-Control: max-age=0\r\n",
+          "http.request.line": "sec-ch-ua: \"Chromium\";v=\"122\", \"Not(A:Brand\";v=\"24\", \"Microsoft Edge\";v=\"122\"\r\n",
+          "http.request.line": "sec-ch-ua-mobile: ?0\r\n",
+          "http.request.line": "sec-ch-ua-platform: \"Windows\"\r\n",
+          "http.request.line": "Upgrade-Insecure-Requests: 1\r\n",
+          "http.request.line": "Origin: http://localhost\r\n",
+          "http.content_type": "application/x-www-form-urlencoded",
+          "http.request.line": "Content-Type: application/x-www-form-urlencoded\r\n",
+          "http.user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0",
+          "http.request.line": "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0\r\n",
+          "http.accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+          "http.request.line": "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\r\n",
+          "http.request.line": "Sec-Fetch-Site: same-origin\r\n",
+          "http.request.line": "Sec-Fetch-Mode: navigate\r\n",
+          "http.request.line": "Sec-Fetch-User: ?1\r\n",
+          "http.request.line": "Sec-Fetch-Dest: document\r\n",
+          "http.referer": "http://localhost/demo/login.php",
+          "http.request.line": "Referer: http://localhost/demo/login.php\r\n",
+          "http.accept_encoding": "gzip, deflate, br",
+          "http.request.line": "Accept-Encoding: gzip, deflate, br\r\n",
+          "http.accept_language": "en-US,en;q=0.9",
+          "http.request.line": "Accept-Language: en-US,en;q=0.9\r\n",
+          "http.cookie": "PHPSESSID=tfigeeitik6psq9bmfn25q3jj4",
+          "http.cookie_tree": {
+            "http.cookie_pair": "PHPSESSID=tfigeeitik6psq9bmfn25q3jj4"
+          },
+          "http.request.line": "Cookie: PHPSESSID=tfigeeitik6psq9bmfn25q3jj4\r\n",
+          "\\r\\n": "",
+          "http.request.full_uri": "http://localhost/demo/login.php",
+          "http.request": "1",
+          "http.request_number": "1",
+          "http.response_in": "786",
+          "http.file_data": "75:73:65:72:6e:61:6d:65:3d:75:73:65:72:32:25:32:37:2b:2d:2d:2b:25:32:46:25:32:46:26:70:61:73:73:77:6f:72:64:3d:74:72:61:6e:74:72:6f:6e:67:68:75:79:26:6c:6f:67:69:6e:3d"
+        },
+        "urlencoded-form": {
+          "Form item: \"username\" = \"user2' -- //\"": {
+            "urlencoded-form.key": "username",
+            "urlencoded-form.value": "user2' -- //"
+          },
+          "Form item: \"password\" = \"trantronghuy\"": {
+            "urlencoded-form.key": "password",
+            "urlencoded-form.value": "trantronghuy"
+          },
+          "Form item: \"login\" = \"\"": {
+            "urlencoded-form.key": "login",
+            "urlencoded-form.value": ""
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2024-03-25",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "\\Device\\NPF_Loopback"
+          },
+          "frame.encap_type": "15",
+          "frame.time": "Mar 25, 2024 20:35:15.935253000 SE Asia Standard Time",
+          "frame.time_utc": "Mar 25, 2024 13:35:15.935253000 UTC",
+          "frame.time_epoch": "1711373715.935253000",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.000029000",
+          "frame.time_delta_displayed": "0.000029000",
+          "frame.time_relative": "12.866801000",
+          "frame.number": "764",
+          "frame.len": "64",
+          "frame.cap_len": "64",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "null:ipv6:tcp",
+          "frame.coloring_rule.name": "HTTP",
+          "frame.coloring_rule.string": "http || tcp.port == 80 || http2"
+        },
+        "null": {
+          "null.family": "24"
+        },
+        "ipv6": {
+          "ipv6.version": "6",
+          "ip.version": "6",
+          "ipv6.tclass": "0x00000000",
+          "ipv6.tclass_tree": {
+            "ipv6.tclass.dscp": "0",
+            "ipv6.tclass.ecn": "0"
+          },
+          "ipv6.flow": "0x0fef78",
+          "ipv6.plen": "20",
+          "ipv6.nxt": "6",
+          "ipv6.hlim": "128",
+          "ipv6.src": "::1",
+          "ipv6.addr": "::1",
+          "ipv6.src_host": "::1",
+          "ipv6.host": "::1",
+          "ipv6.dst": "::1",
+          "ipv6.addr": "::1",
+          "ipv6.dst_host": "::1",
+          "ipv6.host": "::1"
+        },
+        "tcp": {
+          "tcp.srcport": "80",
+          "tcp.dstport": "55156",
+          "tcp.port": "80",
+          "tcp.port": "55156",
+          "tcp.stream": "2",
+          "tcp.completeness": "28",
+          "tcp.completeness_tree": {
+            "tcp.completeness.rst": "0",
+            "tcp.completeness.fin": "1",
+            "tcp.completeness.data": "1",
+            "tcp.completeness.ack": "1",
+            "tcp.completeness.syn-ack": "0",
+            "tcp.completeness.syn": "0",
+            "tcp.completeness.str": "·FDA··"
+          },
+          "tcp.len": "0",
+          "tcp.seq": "1",
+          "tcp.seq_raw": "4244023622",
+          "tcp.nxtseq": "1",
+          "tcp.ack": "957",
+          "tcp.ack_raw": "3912855818",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x0010",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ece": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "0",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······A····"
+          },
+          "tcp.window_size_value": "10226",
+          "tcp.window_size": "10226",
+          "tcp.window_size_scalefactor": "-1",
+          "tcp.checksum": "0xaf9a",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "Timestamps": {
+            "tcp.time_relative": "8.372593000",
+            "tcp.time_delta": "0.000029000"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.acks_frame": "763",
+            "tcp.analysis.ack_rtt": "0.000029000"
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2024-03-25",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "\\Device\\NPF_Loopback"
+          },
+          "frame.encap_type": "15",
+          "frame.time": "Mar 25, 2024 20:35:15.939891000 SE Asia Standard Time",
+          "frame.time_utc": "Mar 25, 2024 13:35:15.939891000 UTC",
+          "frame.time_epoch": "1711373715.939891000",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.000641000",
+          "frame.time_delta_displayed": "0.004638000",
+          "frame.time_relative": "12.871439000",
+          "frame.number": "786",
+          "frame.len": "3901",
+          "frame.cap_len": "3901",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "null:ipv6:tcp:http:data-text-lines",
+          "frame.coloring_rule.name": "HTTP",
+          "frame.coloring_rule.string": "http || tcp.port == 80 || http2"
+        },
+        "null": {
+          "null.family": "24"
+        },
+        "ipv6": {
+          "ipv6.version": "6",
+          "ip.version": "6",
+          "ipv6.tclass": "0x00000000",
+          "ipv6.tclass_tree": {
+            "ipv6.tclass.dscp": "0",
+            "ipv6.tclass.ecn": "0"
+          },
+          "ipv6.flow": "0x0fef78",
+          "ipv6.plen": "3857",
+          "ipv6.nxt": "6",
+          "ipv6.hlim": "128",
+          "ipv6.src": "::1",
+          "ipv6.addr": "::1",
+          "ipv6.src_host": "::1",
+          "ipv6.host": "::1",
+          "ipv6.dst": "::1",
+          "ipv6.addr": "::1",
+          "ipv6.dst_host": "::1",
+          "ipv6.host": "::1"
+        },
+        "tcp": {
+          "tcp.srcport": "80",
+          "tcp.dstport": "55156",
+          "tcp.port": "80",
+          "tcp.port": "55156",
+          "tcp.stream": "2",
+          "tcp.completeness": "28",
+          "tcp.completeness_tree": {
+            "tcp.completeness.rst": "0",
+            "tcp.completeness.fin": "1",
+            "tcp.completeness.data": "1",
+            "tcp.completeness.ack": "1",
+            "tcp.completeness.syn-ack": "0",
+            "tcp.completeness.syn": "0",
+            "tcp.completeness.str": "·FDA··"
+          },
+          "tcp.len": "3837",
+          "tcp.seq": "1",
+          "tcp.seq_raw": "4244023622",
+          "tcp.nxtseq": "3838",
+          "tcp.ack": "957",
+          "tcp.ack_raw": "3912855818",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x0018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ece": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "10226",
+          "tcp.window_size": "10226",
+          "tcp.window_size_scalefactor": "-1",
+          "tcp.checksum": "0x877a",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "Timestamps": {
+            "tcp.time_relative": "8.377231000",
+            "tcp.time_delta": "0.004638000"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.bytes_in_flight": "3837",
+            "tcp.analysis.push_bytes_sent": "3837"
+          },
+          "tcp.payload": "48:54:54:50:2f:31:2e:31:20:32:30:30:20:4f:4b:0d:0a:44:61:74:65:3a:20:4d:6f:6e:2c:20:32:35:20:4d:61:72:20:32:30:32:34:20:31:33:3a:33:35:3a:31:35:20:47:4d:54:0d:0a:53:65:72:76:65:72:3a:20:41:70:61:63:68:65:2f:32:2e:34:2e:35:36:20:28:57:69:6e:36:34:29:20:4f:70:65:6e:53:53:4c:2f:31:2e:31:2e:31:74:20:50:48:50:2f:38:2e:32:2e:34:0d:0a:58:2d:50:6f:77:65:72:65:64:2d:42:79:3a:20:50:48:50:2f:38:2e:32:2e:34:0d:0a:45:78:70:69:72:65:73:3a:20:54:68:75:2c:20:31:39:20:4e:6f:76:20:31:39:38:31:20:30:38:3a:35:32:3a:30:30:20:47:4d:54:0d:0a:43:61:63:68:65:2d:43:6f:6e:74:72:6f:6c:3a:20:6e:6f:2d:73:74:6f:72:65:2c:20:6e:6f:2d:63:61:63:68:65:2c:20:6d:75:73:74:2d:72:65:76:61:6c:69:64:61:74:65:0d:0a:50:72:61:67:6d:61:3a:20:6e:6f:2d:63:61:63:68:65:0d:0a:43:6f:6e:74:65:6e:74:2d:4c:65:6e:67:74:68:3a:20:33:34:37:32:0d:0a:4b:65:65:70:2d:41:6c:69:76:65:3a:20:74:69:6d:65:6f:75:74:3d:35:2c:20:6d:61:78:3d:31:30:30:0d:0a:43:6f:6e:6e:65:63:74:69:6f:6e:3a:20:4b:65:65:70:2d:41:6c:69:76:65:0d:0a:43:6f:6e:74:65:6e:74:2d:54:79:70:65:3a:20:74:65:78:74:2f:68:74:6d:6c:3b:20:63:68:61:72:73:65:74:3d:55:54:46:2d:38:0d:0a:0d:0a:3c:64:69:76:20:63:6c:61:73:73:3d:27:63:6f:6e:74:61:69:6e:65:72:20:6d:74:2d:35:27:3e:3c:64:69:76:20:63:6c:61:73:73:3d:27:61:6c:65:72:74:20:61:6c:65:72:74:2d:73:75:63:63:65:73:73:27:20:72:6f:6c:65:3d:27:61:6c:65:72:74:27:3e:3c:68:34:20:63:6c:61:73:73:3d:27:61:6c:65:72:74:2d:68:65:61:64:69:6e:67:27:3e:57:65:6c:63:6f:6d:65:21:3c:2f:68:34:3e:3c:70:3e:55:73:65:72:6e:61:6d:65:3a:20:75:73:65:72:32:3c:2f:70:3e:3c:68:72:3e:3c:70:20:63:6c:61:73:73:3d:27:6d:62:2d:30:27:3e:59:6f:75:20:68:61:76:65:20:73:75:63:63:65:73:73:66:75:6c:6c:79:20:6c:6f:67:67:65:64:20:69:6e:2e:3c:2f:70:3e:3c:2f:64:69:76:3e:3c:2f:64:69:76:3e:0d:0a:3c:21:64:6f:63:74:79:70:65:20:68:74:6d:6c:3e:0d:0a:3c:68:74:6d:6c:20:6c:61:6e:67:3d:22:65:6e:22:3e:0d:0a:3c:68:65:61:64:3e:0d:0a:20:20:20:20:3c:74:69:74:6c:65:3e:42:65:61:75:74:69:66:75:6c:20:4c:6f:67:69:6e:3c:2f:74:69:74:6c:65:3e:0d:0a:20:20:20:20:3c:6d:65:74:61:20:63:68:61:72:73:65:74:3d:22:75:74:66:2d:38:22:3e:0d:0a:20:20:20:20:3c:6d:65:74:61:20:6e:61:6d:65:3d:22:76:69:65:77:70:6f:72:74:22:20:63:6f:6e:74:65:6e:74:3d:22:77:69:64:74:68:3d:64:65:76:69:63:65:2d:77:69:64:74:68:2c:20:69:6e:69:74:69:61:6c:2d:73:63:61:6c:65:3d:31:2c:20:73:68:72:69:6e:6b:2d:74:6f:2d:66:69:74:3d:6e:6f:22:3e:0d:0a:20:20:20:20:3c:6c:69:6e:6b:20:72:65:6c:3d:22:73:74:79:6c:65:73:68:65:65:74:22:20:68:72:65:66:3d:22:68:74:74:70:73:3a:2f:2f:73:74:61:63:6b:70:61:74:68:2e:62:6f:6f:74:73:74:72:61:70:63:64:6e:2e:63:6f:6d:2f:62:6f:6f:74:73:74:72:61:70:2f:34:2e:33:2e:31:2f:63:73:73:2f:62:6f:6f:74:73:74:72:61:70:2e:6d:69:6e:2e:63:73:73:22:0d:0a:20:20:20:20:20:20:20:20:69:6e:74:65:67:72:69:74:79:3d:22:73:68:61:33:38:34:2d:67:67:4f:79:52:30:69:58:43:62:4d:51:76:33:58:69:70:6d:61:33:34:4d:44:2b:64:48:2f:31:66:51:37:38:34:2f:6a:36:63:59:2f:69:4a:54:51:55:4f:68:63:57:72:37:78:39:4a:76:6f:52:78:54:32:4d:5a:77:31:54:22:20:63:72:6f:73:73:6f:72:69:67:69:6e:3d:22:61:6e:6f:6e:79:6d:6f:75:73:22:3e:0d:0a:09:3c:6c:69:6e:6b:20:68:72:65:66:3d:22:68:74:74:70:73:3a:2f:2f:63:64:6e:6a:73:2e:63:6c:6f:75:64:66:6c:61:72:65:2e:63:6f:6d:2f:61:6a:61:78:2f:6c:69:62:73:2f:66:6f:6e:74:2d:61:77:65:73:6f:6d:65:2f:35:2e:31:35:2e:34:2f:63:73:73:2f:61:6c:6c:2e:6d:69:6e:2e:63:73:73:22:20:72:65:6c:3d:22:73:74:79:6c:65:73:68:65:65:74:22:3e:0d:0a:3c:2f:68:65:61:64:3e:0d:0a:3c:62:6f:64:79:3e:0d:0a:20:20:20:20:3c:64:69:76:20:63:6c:61:73:73:3d:22:63:6f:6e:74:61:69:6e:65:72:20:6d:74:2d:35:22:3e:0d:0a:20:20:20:20:20:20:20:20:3c:64:69:76:20:63:6c:61:73:73:3d:22:72:6f:77:20:6a:75:73:74:69:66:79:2d:63:6f:6e:74:65:6e:74:2d:63:65:6e:74:65:72:22:3e:0d:0a:20:20:20:20:20:20:20:20:20:20:20:20:3c:64:69:76:20:63:6c:61:73:73:3d:22:63:6f:6c:2d:6d:64:2d:36:22:3e:0d:0a:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:3c:64:69:76:20:63:6c:61:73:73:3d:22:63:61:72:64:22:3e:0d:0a:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:3c:64:69:76:20:63:6c:61:73:73:3d:22:63:61:72:64:2d:68:65:61:64:65:72:22:3e:4c:6f:67:69:6e:3c:2f:64:69:76:3e:0d:0a:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:3c:64:69:76:20:63:6c:61:73:73:3d:22:63:61:72:64:2d:62:6f:64:79:22:3e:0d:0a:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:3c:66:6f:72:6d:20:61:63:74:69:6f:6e:3d:22:6c:6f:67:69:6e:2e:70:68:70:22:20:6d:65:74:68:6f:64:3d:22:50:4f:53:54:22:3e:0d:0a:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:3c:64:69:76:20:63:6c:61:73:73:3d:22:66:6f:72:6d:2d:67:72:6f:75:70:22:3e:0d:0a:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:3c:6c:61:62:65:6c:20:66:6f:72:3d:22:75:73:65:72:6e:61:6d:65:22:3e:55:73:65:72:6e:61:6d:65:3c:2f:6c:61:62:65:6c:3e:0d:0a:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:3c:69:6e:70:75:74:20:74:79:70:65:3d:22:74:65:78:74:22:20:63:6c:61:73:73:3d:22:66:6f:72:6d:2d:63:6f:6e:74:72:6f:6c:22:20:69:64:3d:22:75:73:65:72:6e:61:6d:65:22:20:6e:61:6d:65:3d:22:75:73:65:72:6e:61:6d:65:22:3e:0d:0a:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:3c:2f:64:69:76:3e:0d:0a:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:3c:64:69:76:20:63:6c:61:73:73:3d:22:66:6f:72:6d:2d:67:72:6f:75:70:22:3e:0d:0a:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:3c:6c:61:62:65:6c:20:66:6f:72:3d:22:70:61:73:73:77:6f:72:64:22:3e:50:61:73:73:77:6f:72:64:3c:2f:6c:61:62:65:6c:3e:0d:0a:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:3c:64:69:76:20:63:6c:61:73:73:3d:22:69:6e:70:75:74:2d:67:72:6f:75:70:22:3e:0d:0a:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:3c:69:6e:70:75:74:20:74:79:70:65:3d:22:70:61:73:73:77:6f:72:64:22:20:63:6c:61:73:73:3d:22:66:6f:72:6d:2d:63:6f:6e:74:72:6f:6c:22:20:69:64:3d:22:70:61:73:73:77:6f:72:64:22:20:6e:61:6d:65:3d:22:70:61:73:73:77:6f:72:64:22:3e:0d:0a:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:3c:64:69:76:20:63:6c:61:73:73:3d:22:69:6e:70:75:74:2d:67:72:6f:75:70:2d:61:70:70:65:6e:64:22:3e:0d:0a:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:3c:62:75:74:74:6f:6e:20:63:6c:61:73:73:3d:22:62:74:6e:20:62:74:6e:2d:6f:75:74:6c:69:6e:65:2d:73:65:63:6f:6e:64:61:72:79:22:20:74:79:70:65:3d:22:62:75:74:74:6f:6e:22:20:69:64:3d:22:73:68:6f:77:50:61:73:73:77:6f:72:64:54:6f:67:67:6c:65:22:3e:3c:69:20:63:6c:61:73:73:3d:22:66:61:73:20:66:61:2d:65:79:65:22:3e:3c:2f:69:3e:3c:2f:62:75:74:74:6f:6e:3e:0d:0a:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:3c:2f:64:69:76:3e:0d:0a:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:3c:2f:64:69:76:3e:0d:0a:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:3c:2f:64:69:76:3e:0d:0a:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:3c:62:75:74:74:6f:6e:20:74:79:70:65:3d:22:73:75:62:6d:69:74:22:20:63:6c:61:73:73:3d:22:62:74:6e:20:62:74:6e:2d:70:72:69:6d:61:72:79:22:20:6e:61:6d:65:3d:22:6c:6f:67:69:6e:22:3e:4c:6f:67:69:6e:3c:2f:62:75:74:74:6f:6e:3e:0d:0a:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:3c:2f:66:6f:72:6d:3e:0d:0a:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:3c:2f:64:69:76:3e:0d:0a:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:3c:2f:64:69:76:3e:0d:0a:20:20:20:20:20:20:20:20:20:20:20:20:3c:2f:64:69:76:3e:0d:0a:20:20:20:20:20:20:20:20:3c:2f:64:69:76:3e:0d:0a:20:20:20:20:3c:2f:64:69:76:3e:0d:0a:0d:0a:20:20:20:20:3c:73:63:72:69:70:74:20:73:72:63:3d:22:68:74:74:70:73:3a:2f:2f:63:6f:64:65:2e:6a:71:75:65:72:79:2e:63:6f:6d:2f:6a:71:75:65:72:79:2d:33:2e:33:2e:31:2e:73:6c:69:6d:2e:6d:69:6e:2e:6a:73:22:0d:0a:20:20:20:20:20:20:20:20:69:6e:74:65:67:72:69:74:79:3d:22:73:68:61:33:38:34:2d:71:38:69:2f:58:2b:39:36:35:44:7a:4f:30:72:54:37:61:62:4b:34:31:4a:53:74:51:49:41:71:56:67:52:56:7a:70:62:7a:6f:35:73:6d:58:4b:70:34:59:66:52:76:48:2b:38:61:62:74:54:45:31:50:69:36:6a:69:7a:6f:22:0d:0a:20:20:20:20:20:20:20:20:63:72:6f:73:73:6f:72:69:67:69:6e:3d:22:61:6e:6f:6e:79:6d:6f:75:73:22:3e:3c:2f:73:63:72:69:70:74:3e:0d:0a:20:20:20:20:3c:73:63:72:69:70:74:20:73:72:63:3d:22:68:74:74:70:73:3a:2f:2f:63:64:6e:6a:73:2e:63:6c:6f:75:64:66:6c:61:72:65:2e:63:6f:6d:2f:61:6a:61:78:2f:6c:69:62:73:2f:70:6f:70:70:65:72:2e:6a:73:2f:31:2e:31:34:2e:37:2f:75:6d:64:2f:70:6f:70:70:65:72:2e:6d:69:6e:2e:6a:73:22:0d:0a:20:20:20:20:20:20:20:20:69:6e:74:65:67:72:69:74:79:3d:22:73:68:61:33:38:34:2d:55:4f:32:65:54:30:43:70:48:71:64:53:4a:51:36:68:4a:74:79:35:4b:56:70:68:74:50:68:7a:57:6a:39:57:4f:31:63:6c:48:54:4d:47:61:33:4a:44:5a:77:72:6e:51:71:34:73:46:38:36:64:49:48:4e:44:7a:30:57:31:22:0d:0a:20:20:20:20:20:20:20:20:63:72:6f:73:73:6f:72:69:67:69:6e:3d:22:61:6e:6f:6e:79:6d:6f:75:73:22:3e:3c:2f:73:63:72:69:70:74:3e:0d:0a:20:20:20:20:3c:73:63:72:69:70:74:20:73:72:63:3d:22:68:74:74:70:73:3a:2f:2f:73:74:61:63:6b:70:61:74:68:2e:62:6f:6f:74:73:74:72:61:70:63:64:6e:2e:63:6f:6d:2f:62:6f:6f:74:73:74:72:61:70:2f:34:2e:33:2e:31:2f:6a:73:2f:62:6f:6f:74:73:74:72:61:70:2e:6d:69:6e:2e:6a:73:22:0d:0a:20:20:20:20:20:20:20:20:69:6e:74:65:67:72:69:74:79:3d:22:73:68:61:33:38:34:2d:4a:6a:53:6d:56:67:79:64:30:70:33:70:58:42:31:72:52:69:62:5a:55:41:59:6f:49:49:79:36:4f:72:51:36:56:72:6a:49:45:61:46:66:2f:6e:4a:47:7a:49:78:46:44:73:66:34:78:30:78:49:4d:2b:42:30:37:6a:52:4d:22:0d:0a:20:20:20:20:20:20:20:20:63:72:6f:73:73:6f:72:69:67:69:6e:3d:22:61:6e:6f:6e:79:6d:6f:75:73:22:3e:3c:2f:73:63:72:69:70:74:3e:0d:0a:20:20:20:20:3c:73:63:72:69:70:74:3e:0d:0a:20:20:20:20:20:20:20:20:64:6f:63:75:6d:65:6e:74:2e:61:64:64:45:76:65:6e:74:4c:69:73:74:65:6e:65:72:28:22:44:4f:4d:43:6f:6e:74:65:6e:74:4c:6f:61:64:65:64:22:2c:20:66:75:6e:63:74:69:6f:6e:28:29:20:7b:0d:0a:20:20:20:20:20:20:20:20:20:20:20:20:63:6f:6e:73:74:20:70:61:73:73:77:6f:72:64:49:6e:70:75:74:20:3d:20:64:6f:63:75:6d:65:6e:74:2e:67:65:74:45:6c:65:6d:65:6e:74:42:79:49:64:28:22:70:61:73:73:77:6f:72:64:22:29:3b:0d:0a:20:20:20:20:20:20:20:20:20:20:20:20:63:6f:6e:73:74:20:73:68:6f:77:50:61:73:73:77:6f:72:64:54:6f:67:67:6c:65:20:3d:20:64:6f:63:75:6d:65:6e:74:2e:67:65:74:45:6c:65:6d:65:6e:74:42:79:49:64:28:22:73:68:6f:77:50:61:73:73:77:6f:72:64:54:6f:67:67:6c:65:22:29:3b:0d:0a:0d:0a:20:20:20:20:20:20:20:20:20:20:20:20:73:68:6f:77:50:61:73:73:77:6f:72:64:54:6f:67:67:6c:65:2e:61:64:64:45:76:65:6e:74:4c:69:73:74:65:6e:65:72:28:22:63:6c:69:63:6b:22:2c:20:66:75:6e:63:74:69:6f:6e:28:29:20:7b:0d:0a:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:69:66:20:28:70:61:73:73:77:6f:72:64:49:6e:70:75:74:2e:74:79:70:65:20:3d:3d:3d:20:22:70:61:73:73:77:6f:72:64:22:29:20:7b:0d:0a:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:70:61:73:73:77:6f:72:64:49:6e:70:75:74:2e:74:79:70:65:20:3d:20:22:74:65:78:74:22:3b:0d:0a:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:7d:20:65:6c:73:65:20:7b:0d:0a:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:70:61:73:73:77:6f:72:64:49:6e:70:75:74:2e:74:79:70:65:20:3d:20:22:70:61:73:73:77:6f:72:64:22:3b:0d:0a:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:7d:0d:0a:20:20:20:20:20:20:20:20:20:20:20:20:7d:29:3b:0d:0a:20:20:20:20:20:20:20:20:7d:29:3b:0d:0a:20:20:20:20:3c:2f:73:63:72:69:70:74:3e:0d:0a:0d:0a:3c:2f:62:6f:64:79:3e:0d:0a:3c:2f:68:74:6d:6c:3e:0d:0a"
+        },
+        "http": {
+          "HTTP/1.1 200 OK\\r\\n": {
+            "_ws.expert": {
+              "http.chat": "",
+              "_ws.expert.message": "HTTP/1.1 200 OK\\r\\n",
+              "_ws.expert.severity": "2097152",
+              "_ws.expert.group": "33554432"
+            },
+            "http.response.version": "HTTP/1.1",
+            "http.response.code": "200",
+            "http.response.code.desc": "OK",
+            "http.response.phrase": "OK"
+          },
+          "http.date": "Mon, 25 Mar 2024 13:35:15 GMT",
+          "http.response.line": "Date: Mon, 25 Mar 2024 13:35:15 GMT\r\n",
+          "http.server": "Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4",
+          "http.response.line": "Server: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4\r\n",
+          "http.response.line": "X-Powered-By: PHP/8.2.4\r\n",
+          "http.response.line": "Expires: Thu, 19 Nov 1981 08:52:00 GMT\r\n",
+          "http.cache_control": "no-store, no-cache, must-revalidate",
+          "http.response.line": "Cache-Control: no-store, no-cache, must-revalidate\r\n",
+          "http.response.line": "Pragma: no-cache\r\n",
+          "http.content_length_header": "3472",
+          "http.content_length_header_tree": {
+            "http.content_length": "3472"
+          },
+          "http.response.line": "Content-Length: 3472\r\n",
+          "http.response.line": "Keep-Alive: timeout=5, max=100\r\n",
+          "http.connection": "Keep-Alive",
+          "http.response.line": "Connection: Keep-Alive\r\n",
+          "http.content_type": "text/html; charset=UTF-8",
+          "http.response.line": "Content-Type: text/html; charset=UTF-8\r\n",
+          "\\r\\n": "",
+          "http.response": "1",
+          "http.response_number": "1",
+          "http.time": "0.004667000",
+          "http.request_in": "763",
+          "http.response_for.uri": "http://localhost/demo/login.php",
+          "http.file_data": "3c:64:69:76:20:63:6c:61:73:73:3d:27:63:6f:6e:74:61:69:6e:65:72:20:6d:74:2d:35:27:3e:3c:64:69:76:20:63:6c:61:73:73:3d:27:61:6c:65:72:74:20:61:6c:65:72:74:2d:73:75:63:63:65:73:73:27:20:72:6f:6c:65:3d:27:61:6c:65:72:74:27:3e:3c:68:34:20:63:6c:61:73:73:3d:27:61:6c:65:72:74:2d:68:65:61:64:69:6e:67:27:3e:57:65:6c:63:6f:6d:65:21:3c:2f:68:34:3e:3c:70:3e:55:73:65:72:6e:61:6d:65:3a:20:75:73:65:72:32:3c:2f:70:3e:3c:68:72:3e:3c:70:20:63:6c:61:73:73:3d:27:6d:62:2d:30:27:3e:59:6f:75:20:68:61:76:65:20:73:75:63:63:65:73:73:66:75:6c:6c:79:20:6c:6f:67:67:65:64:20:69:6e:2e:3c:2f:70:3e:3c:2f:64:69:76:3e:3c:2f:64:69:76:3e:0d:0a:3c:21:64:6f:63:74:79:70:65:20:68:74:6d:6c:3e:0d:0a:3c:68:74:6d:6c:20:6c:61:6e:67:3d:22:65:6e:22:3e:0d:0a:3c:68:65:61:64:3e:0d:0a:20:20:20:20:3c:74:69:74:6c:65:3e:42:65:61:75:74:69:66:75:6c:20:4c:6f:67:69:6e:3c:2f:74:69:74:6c:65:3e:0d:0a:20:20:20:20:3c:6d:65:74:61:20:63:68:61:72:73:65:74:3d:22:75:74:66:2d:38:22:3e:0d:0a:20:20:20:20:3c:6d:65:74:61:20:6e:61:6d:65:3d:22:76:69:65:77:70:6f:72:74:22:20:63:6f:6e:74:65:6e:74:3d:22:77:69:64:74:68:3d:64:65:76:69:63:65:2d:77:69:64:74:68:2c:20:69:6e:69:74:69:61:6c:2d:73:63:61:6c:65:3d:31:2c:20:73:68:72:69:6e:6b:2d:74:6f:2d:66:69:74:3d:6e:6f:22:3e:0d:0a:20:20:20:20:3c:6c:69:6e:6b:20:72:65:6c:3d:22:73:74:79:6c:65:73:68:65:65:74:22:20:68:72:65:66:3d:22:68:74:74:70:73:3a:2f:2f:73:74:61:63:6b:70:61:74:68:2e:62:6f:6f:74:73:74:72:61:70:63:64:6e:2e:63:6f:6d:2f:62:6f:6f:74:73:74:72:61:70:2f:34:2e:33:2e:31:2f:63:73:73:2f:62:6f:6f:74:73:74:72:61:70:2e:6d:69:6e:2e:63:73:73:22:0d:0a:20:20:20:20:20:20:20:20:69:6e:74:65:67:72:69:74:79:3d:22:73:68:61:33:38:34:2d:67:67:4f:79:52:30:69:58:43:62:4d:51:76:33:58:69:70:6d:61:33:34:4d:44:2b:64:48:2f:31:66:51:37:38:34:2f:6a:36:63:59:2f:69:4a:54:51:55:4f:68:63:57:72:37:78:39:4a:76:6f:52:78:54:32:4d:5a:77:31:54:22:20:63:72:6f:73:73:6f:72:69:67:69:6e:3d:22:61:6e:6f:6e:79:6d:6f:75:73:22:3e:0d:0a:09:3c:6c:69:6e:6b:20:68:72:65:66:3d:22:68:74:74:70:73:3a:2f:2f:63:64:6e:6a:73:2e:63:6c:6f:75:64:66:6c:61:72:65:2e:63:6f:6d:2f:61:6a:61:78:2f:6c:69:62:73:2f:66:6f:6e:74:2d:61:77:65:73:6f:6d:65:2f:35:2e:31:35:2e:34:2f:63:73:73:2f:61:6c:6c:2e:6d:69:6e:2e:63:73:73:22:20:72:65:6c:3d:22:73:74:79:6c:65:73:68:65:65:74:22:3e:0d:0a:3c:2f:68:65:61:64:3e:0d:0a:3c:62:6f:64:79:3e:0d:0a:20:20:20:20:3c:64:69:76:20:63:6c:61:73:73:3d:22:63:6f:6e:74:61:69:6e:65:72:20:6d:74:2d:35:22:3e:0d:0a:20:20:20:20:20:20:20:20:3c:64:69:76:20:63:6c:61:73:73:3d:22:72:6f:77:20:6a:75:73:74:69:66:79:2d:63:6f:6e:74:65:6e:74:2d:63:65:6e:74:65:72:22:3e:0d:0a:20:20:20:20:20:20:20:20:20:20:20:20:3c:64:69:76:20:63:6c:61:73:73:3d:22:63:6f:6c:2d:6d:64:2d:36:22:3e:0d:0a:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:3c:64:69:76:20:63:6c:61:73:73:3d:22:63:61:72:64:22:3e:0d:0a:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:3c:64:69:76:20:63:6c:61:73:73:3d:22:63:61:72:64:2d:68:65:61:64:65:72:22:3e:4c:6f:67:69:6e:3c:2f:64:69:76:3e:0d:0a:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:3c:64:69:76:20:63:6c:61:73:73:3d:22:63:61:72:64:2d:62:6f:64:79:22:3e:0d:0a:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:3c:66:6f:72:6d:20:61:63:74:69:6f:6e:3d:22:6c:6f:67:69:6e:2e:70:68:70:22:20:6d:65:74:68:6f:64:3d:22:50:4f:53:54:22:3e:0d:0a:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:3c:64:69:76:20:63:6c:61:73:73:3d:22:66:6f:72:6d:2d:67:72:6f:75:70:22:3e:0d:0a:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:3c:6c:61:62:65:6c:20:66:6f:72:3d:22:75:73:65:72:6e:61:6d:65:22:3e:55:73:65:72:6e:61:6d:65:3c:2f:6c:61:62:65:6c:3e:0d:0a:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:3c:69:6e:70:75:74:20:74:79:70:65:3d:22:74:65:78:74:22:20:63:6c:61:73:73:3d:22:66:6f:72:6d:2d:63:6f:6e:74:72:6f:6c:22:20:69:64:3d:22:75:73:65:72:6e:61:6d:65:22:20:6e:61:6d:65:3d:22:75:73:65:72:6e:61:6d:65:22:3e:0d:0a:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:3c:2f:64:69:76:3e:0d:0a:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:3c:64:69:76:20:63:6c:61:73:73:3d:22:66:6f:72:6d:2d:67:72:6f:75:70:22:3e:0d:0a:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:3c:6c:61:62:65:6c:20:66:6f:72:3d:22:70:61:73:73:77:6f:72:64:22:3e:50:61:73:73:77:6f:72:64:3c:2f:6c:61:62:65:6c:3e:0d:0a:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:3c:64:69:76:20:63:6c:61:73:73:3d:22:69:6e:70:75:74:2d:67:72:6f:75:70:22:3e:0d:0a:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:3c:69:6e:70:75:74:20:74:79:70:65:3d:22:70:61:73:73:77:6f:72:64:22:20:63:6c:61:73:73:3d:22:66:6f:72:6d:2d:63:6f:6e:74:72:6f:6c:22:20:69:64:3d:22:70:61:73:73:77:6f:72:64:22:20:6e:61:6d:65:3d:22:70:61:73:73:77:6f:72:64:22:3e:0d:0a:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:3c:64:69:76:20:63:6c:61:73:73:3d:22:69:6e:70:75:74:2d:67:72:6f:75:70:2d:61:70:70:65:6e:64:22:3e:0d:0a:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:3c:62:75:74:74:6f:6e:20:63:6c:61:73:73:3d:22:62:74:6e:20:62:74:6e:2d:6f:75:74:6c:69:6e:65:2d:73:65:63:6f:6e:64:61:72:79:22:20:74:79:70:65:3d:22:62:75:74:74:6f:6e:22:20:69:64:3d:22:73:68:6f:77:50:61:73:73:77:6f:72:64:54:6f:67:67:6c:65:22:3e:3c:69:20:63:6c:61:73:73:3d:22:66:61:73:20:66:61:2d:65:79:65:22:3e:3c:2f:69:3e:3c:2f:62:75:74:74:6f:6e:3e:0d:0a:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:3c:2f:64:69:76:3e:0d:0a:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:3c:2f:64:69:76:3e:0d:0a:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:3c:2f:64:69:76:3e:0d:0a:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:3c:62:75:74:74:6f:6e:20:74:79:70:65:3d:22:73:75:62:6d:69:74:22:20:63:6c:61:73:73:3d:22:62:74:6e:20:62:74:6e:2d:70:72:69:6d:61:72:79:22:20:6e:61:6d:65:3d:22:6c:6f:67:69:6e:22:3e:4c:6f:67:69:6e:3c:2f:62:75:74:74:6f:6e:3e:0d:0a:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:3c:2f:66:6f:72:6d:3e:0d:0a:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:3c:2f:64:69:76:3e:0d:0a:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:3c:2f:64:69:76:3e:0d:0a:20:20:20:20:20:20:20:20:20:20:20:20:3c:2f:64:69:76:3e:0d:0a:20:20:20:20:20:20:20:20:3c:2f:64:69:76:3e:0d:0a:20:20:20:20:3c:2f:64:69:76:3e:0d:0a:0d:0a:20:20:20:20:3c:73:63:72:69:70:74:20:73:72:63:3d:22:68:74:74:70:73:3a:2f:2f:63:6f:64:65:2e:6a:71:75:65:72:79:2e:63:6f:6d:2f:6a:71:75:65:72:79:2d:33:2e:33:2e:31:2e:73:6c:69:6d:2e:6d:69:6e:2e:6a:73:22:0d:0a:20:20:20:20:20:20:20:20:69:6e:74:65:67:72:69:74:79:3d:22:73:68:61:33:38:34:2d:71:38:69:2f:58:2b:39:36:35:44:7a:4f:30:72:54:37:61:62:4b:34:31:4a:53:74:51:49:41:71:56:67:52:56:7a:70:62:7a:6f:35:73:6d:58:4b:70:34:59:66:52:76:48:2b:38:61:62:74:54:45:31:50:69:36:6a:69:7a:6f:22:0d:0a:20:20:20:20:20:20:20:20:63:72:6f:73:73:6f:72:69:67:69:6e:3d:22:61:6e:6f:6e:79:6d:6f:75:73:22:3e:3c:2f:73:63:72:69:70:74:3e:0d:0a:20:20:20:20:3c:73:63:72:69:70:74:20:73:72:63:3d:22:68:74:74:70:73:3a:2f:2f:63:64:6e:6a:73:2e:63:6c:6f:75:64:66:6c:61:72:65:2e:63:6f:6d:2f:61:6a:61:78:2f:6c:69:62:73:2f:70:6f:70:70:65:72:2e:6a:73:2f:31:2e:31:34:2e:37:2f:75:6d:64:2f:70:6f:70:70:65:72:2e:6d:69:6e:2e:6a:73:22:0d:0a:20:20:20:20:20:20:20:20:69:6e:74:65:67:72:69:74:79:3d:22:73:68:61:33:38:34:2d:55:4f:32:65:54:30:43:70:48:71:64:53:4a:51:36:68:4a:74:79:35:4b:56:70:68:74:50:68:7a:57:6a:39:57:4f:31:63:6c:48:54:4d:47:61:33:4a:44:5a:77:72:6e:51:71:34:73:46:38:36:64:49:48:4e:44:7a:30:57:31:22:0d:0a:20:20:20:20:20:20:20:20:63:72:6f:73:73:6f:72:69:67:69:6e:3d:22:61:6e:6f:6e:79:6d:6f:75:73:22:3e:3c:2f:73:63:72:69:70:74:3e:0d:0a:20:20:20:20:3c:73:63:72:69:70:74:20:73:72:63:3d:22:68:74:74:70:73:3a:2f:2f:73:74:61:63:6b:70:61:74:68:2e:62:6f:6f:74:73:74:72:61:70:63:64:6e:2e:63:6f:6d:2f:62:6f:6f:74:73:74:72:61:70:2f:34:2e:33:2e:31:2f:6a:73:2f:62:6f:6f:74:73:74:72:61:70:2e:6d:69:6e:2e:6a:73:22:0d:0a:20:20:20:20:20:20:20:20:69:6e:74:65:67:72:69:74:79:3d:22:73:68:61:33:38:34:2d:4a:6a:53:6d:56:67:79:64:30:70:33:70:58:42:31:72:52:69:62:5a:55:41:59:6f:49:49:79:36:4f:72:51:36:56:72:6a:49:45:61:46:66:2f:6e:4a:47:7a:49:78:46:44:73:66:34:78:30:78:49:4d:2b:42:30:37:6a:52:4d:22:0d:0a:20:20:20:20:20:20:20:20:63:72:6f:73:73:6f:72:69:67:69:6e:3d:22:61:6e:6f:6e:79:6d:6f:75:73:22:3e:3c:2f:73:63:72:69:70:74:3e:0d:0a:20:20:20:20:3c:73:63:72:69:70:74:3e:0d:0a:20:20:20:20:20:20:20:20:64:6f:63:75:6d:65:6e:74:2e:61:64:64:45:76:65:6e:74:4c:69:73:74:65:6e:65:72:28:22:44:4f:4d:43:6f:6e:74:65:6e:74:4c:6f:61:64:65:64:22:2c:20:66:75:6e:63:74:69:6f:6e:28:29:20:7b:0d:0a:20:20:20:20:20:20:20:20:20:20:20:20:63:6f:6e:73:74:20:70:61:73:73:77:6f:72:64:49:6e:70:75:74:20:3d:20:64:6f:63:75:6d:65:6e:74:2e:67:65:74:45:6c:65:6d:65:6e:74:42:79:49:64:28:22:70:61:73:73:77:6f:72:64:22:29:3b:0d:0a:20:20:20:20:20:20:20:20:20:20:20:20:63:6f:6e:73:74:20:73:68:6f:77:50:61:73:73:77:6f:72:64:54:6f:67:67:6c:65:20:3d:20:64:6f:63:75:6d:65:6e:74:2e:67:65:74:45:6c:65:6d:65:6e:74:42:79:49:64:28:22:73:68:6f:77:50:61:73:73:77:6f:72:64:54:6f:67:67:6c:65:22:29:3b:0d:0a:0d:0a:20:20:20:20:20:20:20:20:20:20:20:20:73:68:6f:77:50:61:73:73:77:6f:72:64:54:6f:67:67:6c:65:2e:61:64:64:45:76:65:6e:74:4c:69:73:74:65:6e:65:72:28:22:63:6c:69:63:6b:22:2c:20:66:75:6e:63:74:69:6f:6e:28:29:20:7b:0d:0a:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:69:66:20:28:70:61:73:73:77:6f:72:64:49:6e:70:75:74:2e:74:79:70:65:20:3d:3d:3d:20:22:70:61:73:73:77:6f:72:64:22:29:20:7b:0d:0a:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:70:61:73:73:77:6f:72:64:49:6e:70:75:74:2e:74:79:70:65:20:3d:20:22:74:65:78:74:22:3b:0d:0a:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:7d:20:65:6c:73:65:20:7b:0d:0a:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:70:61:73:73:77:6f:72:64:49:6e:70:75:74:2e:74:79:70:65:20:3d:20:22:70:61:73:73:77:6f:72:64:22:3b:0d:0a:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:20:7d:0d:0a:20:20:20:20:20:20:20:20:20:20:20:20:7d:29:3b:0d:0a:20:20:20:20:20:20:20:20:7d:29:3b:0d:0a:20:20:20:20:3c:2f:73:63:72:69:70:74:3e:0d:0a:0d:0a:3c:2f:62:6f:64:79:3e:0d:0a:3c:2f:68:74:6d:6c:3e:0d:0a"
+        },
+        "data-text-lines": {
+          "<div class='container mt-5'><div class='alert alert-success' role='alert'><h4 class='alert-heading'>Welcome!<\/h4><p>Username: user2<\/p><hr><p class='mb-0'>You have successfully logged in.<\/p><\/div><\/div>\\r\\n": "",
+          "<!doctype html>\\r\\n": "",
+          "<html lang=\"en\">\\r\\n": "",
+          "<head>\\r\\n": "",
+          "    <title>Beautiful Login<\/title>\\r\\n": "",
+          "    <meta charset=\"utf-8\">\\r\\n": "",
+          "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\\r\\n": "",
+          "    <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css\"\\r\\n": "",
+          "        integrity=\"sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T\" crossorigin=\"anonymous\">\\r\\n": "",
+          "\\t<link href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css\" rel=\"stylesheet\">\\r\\n": "",
+          "<\/head>\\r\\n": "",
+          "<body>\\r\\n": "",
+          "    <div class=\"container mt-5\">\\r\\n": "",
+          "        <div class=\"row justify-content-center\">\\r\\n": "",
+          "            <div class=\"col-md-6\">\\r\\n": "",
+          "                <div class=\"card\">\\r\\n": "",
+          "                    <div class=\"card-header\">Login<\/div>\\r\\n": "",
+          "                    <div class=\"card-body\">\\r\\n": "",
+          "                        <form action=\"login.php\" method=\"POST\">\\r\\n": "",
+          "                            <div class=\"form-group\">\\r\\n": "",
+          "                                <label for=\"username\">Username<\/label>\\r\\n": "",
+          "                                <input type=\"text\" class=\"form-control\" id=\"username\" name=\"username\">\\r\\n": "",
+          "                            <\/div>\\r\\n": "",
+          "                            <div class=\"form-group\">\\r\\n": "",
+          "                                <label for=\"password\">Password<\/label>\\r\\n": "",
+          "                                <div class=\"input-group\">\\r\\n": "",
+          "                                    <input type=\"password\" class=\"form-control\" id=\"password\" name=\"password\">\\r\\n": "",
+          "                                    <div class=\"input-group-append\">\\r\\n": "",
+          "                                        <button class=\"btn btn-outline-secondary\" type=\"button\" id=\"showPasswordToggle\"><i class=\"fas fa-eye\"><\/i><\/button>\\r\\n": "",
+          "                                    <\/div>\\r\\n": "",
+          "                                <\/div>\\r\\n": "",
+          "                            <\/div>\\r\\n": "",
+          "                            <button type=\"submit\" class=\"btn btn-primary\" name=\"login\">Login<\/button>\\r\\n": "",
+          "                        <\/form>\\r\\n": "",
+          "                    <\/div>\\r\\n": "",
+          "                <\/div>\\r\\n": "",
+          "            <\/div>\\r\\n": "",
+          "        <\/div>\\r\\n": "",
+          "    <\/div>\\r\\n": "",
+          "\\r\\n": "",
+          "    <script src=\"https://code.jquery.com/jquery-3.3.1.slim.min.js\"\\r\\n": "",
+          "        integrity=\"sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo\"\\r\\n": "",
+          "        crossorigin=\"anonymous\"><\/script>\\r\\n": "",
+          "    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js\"\\r\\n": "",
+          "        integrity=\"sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1\"\\r\\n": "",
+          "        crossorigin=\"anonymous\"><\/script>\\r\\n": "",
+          "    <script src=\"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js\"\\r\\n": "",
+          "        integrity=\"sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM\"\\r\\n": "",
+          "        crossorigin=\"anonymous\"><\/script>\\r\\n": "",
+          "    <script>\\r\\n": "",
+          "        document.addEventListener(\"DOMContentLoaded\", function() {\\r\\n": "",
+          "            const passwordInput = document.getElementById(\"password\");\\r\\n": "",
+          "            const showPasswordToggle = document.getElementById(\"showPasswordToggle\");\\r\\n": "",
+          "\\r\\n": "",
+          "            showPasswordToggle.addEventListener(\"click\", function() {\\r\\n": "",
+          "                if (passwordInput.type === \"password\") {\\r\\n": "",
+          "                    passwordInput.type = \"text\";\\r\\n": "",
+          "                } else {\\r\\n": "",
+          "                    passwordInput.type = \"password\";\\r\\n": "",
+          "                }\\r\\n": "",
+          "            });\\r\\n": "",
+          "        });\\r\\n": "",
+          "    <\/script>\\r\\n": "",
+          "\\r\\n": "",
+          "<\/body>\\r\\n": "",
+          "<\/html>\\r\\n": ""
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2024-03-25",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "\\Device\\NPF_Loopback"
+          },
+          "frame.encap_type": "15",
+          "frame.time": "Mar 25, 2024 20:35:15.939945000 SE Asia Standard Time",
+          "frame.time_utc": "Mar 25, 2024 13:35:15.939945000 UTC",
+          "frame.time_epoch": "1711373715.939945000",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.000054000",
+          "frame.time_delta_displayed": "0.000054000",
+          "frame.time_relative": "12.871493000",
+          "frame.number": "787",
+          "frame.len": "64",
+          "frame.cap_len": "64",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "null:ipv6:tcp",
+          "frame.coloring_rule.name": "HTTP",
+          "frame.coloring_rule.string": "http || tcp.port == 80 || http2"
+        },
+        "null": {
+          "null.family": "24"
+        },
+        "ipv6": {
+          "ipv6.version": "6",
+          "ip.version": "6",
+          "ipv6.tclass": "0x00000000",
+          "ipv6.tclass_tree": {
+            "ipv6.tclass.dscp": "0",
+            "ipv6.tclass.ecn": "0"
+          },
+          "ipv6.flow": "0x025017",
+          "ipv6.plen": "20",
+          "ipv6.nxt": "6",
+          "ipv6.hlim": "128",
+          "ipv6.src": "::1",
+          "ipv6.addr": "::1",
+          "ipv6.src_host": "::1",
+          "ipv6.host": "::1",
+          "ipv6.dst": "::1",
+          "ipv6.addr": "::1",
+          "ipv6.dst_host": "::1",
+          "ipv6.host": "::1"
+        },
+        "tcp": {
+          "tcp.srcport": "55156",
+          "tcp.dstport": "80",
+          "tcp.port": "55156",
+          "tcp.port": "80",
+          "tcp.stream": "2",
+          "tcp.completeness": "28",
+          "tcp.completeness_tree": {
+            "tcp.completeness.rst": "0",
+            "tcp.completeness.fin": "1",
+            "tcp.completeness.data": "1",
+            "tcp.completeness.ack": "1",
+            "tcp.completeness.syn-ack": "0",
+            "tcp.completeness.syn": "0",
+            "tcp.completeness.str": "·FDA··"
+          },
+          "tcp.len": "0",
+          "tcp.seq": "957",
+          "tcp.seq_raw": "3912855818",
+          "tcp.nxtseq": "957",
+          "tcp.ack": "3838",
+          "tcp.ack_raw": "4244027459",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x0010",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ece": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "0",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······A····"
+          },
+          "tcp.window_size_value": "10215",
+          "tcp.window_size": "10215",
+          "tcp.window_size_scalefactor": "-1",
+          "tcp.checksum": "0xa0a8",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "Timestamps": {
+            "tcp.time_relative": "8.377285000",
+            "tcp.time_delta": "0.000054000"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.acks_frame": "786",
+            "tcp.analysis.ack_rtt": "0.000054000"
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2024-03-25",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "\\Device\\NPF_Loopback"
+          },
+          "frame.encap_type": "15",
+          "frame.time": "Mar 25, 2024 20:35:20.944660000 SE Asia Standard Time",
+          "frame.time_utc": "Mar 25, 2024 13:35:20.944660000 UTC",
+          "frame.time_epoch": "1711373720.944660000",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.808330000",
+          "frame.time_delta_displayed": "5.004715000",
+          "frame.time_relative": "17.876208000",
+          "frame.number": "1064",
+          "frame.len": "64",
+          "frame.cap_len": "64",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "null:ipv6:tcp",
+          "frame.coloring_rule.name": "HTTP",
+          "frame.coloring_rule.string": "http || tcp.port == 80 || http2"
+        },
+        "null": {
+          "null.family": "24"
+        },
+        "ipv6": {
+          "ipv6.version": "6",
+          "ip.version": "6",
+          "ipv6.tclass": "0x00000000",
+          "ipv6.tclass_tree": {
+            "ipv6.tclass.dscp": "0",
+            "ipv6.tclass.ecn": "0"
+          },
+          "ipv6.flow": "0x0fef78",
+          "ipv6.plen": "20",
+          "ipv6.nxt": "6",
+          "ipv6.hlim": "128",
+          "ipv6.src": "::1",
+          "ipv6.addr": "::1",
+          "ipv6.src_host": "::1",
+          "ipv6.host": "::1",
+          "ipv6.dst": "::1",
+          "ipv6.addr": "::1",
+          "ipv6.dst_host": "::1",
+          "ipv6.host": "::1"
+        },
+        "tcp": {
+          "tcp.srcport": "80",
+          "tcp.dstport": "55156",
+          "tcp.port": "80",
+          "tcp.port": "55156",
+          "tcp.stream": "2",
+          "tcp.completeness": "28",
+          "tcp.completeness_tree": {
+            "tcp.completeness.rst": "0",
+            "tcp.completeness.fin": "1",
+            "tcp.completeness.data": "1",
+            "tcp.completeness.ack": "1",
+            "tcp.completeness.syn-ack": "0",
+            "tcp.completeness.syn": "0",
+            "tcp.completeness.str": "·FDA··"
+          },
+          "tcp.len": "0",
+          "tcp.seq": "3838",
+          "tcp.seq_raw": "4244027459",
+          "tcp.nxtseq": "3839",
+          "tcp.ack": "957",
+          "tcp.ack_raw": "3912855818",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x0011",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ece": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "0",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "1",
+            "tcp.flags.fin_tree": {
+              "_ws.expert": {
+                "tcp.connection.fin": "",
+                "_ws.expert.message": "Connection finish (FIN)",
+                "_ws.expert.severity": "2097152",
+                "_ws.expert.group": "33554432"
+              }
+            },
+            "tcp.flags.str": "·······A···F",
+            "tcp.flags.str_tree": {
+              "_ws.expert": {
+                "tcp.connection.fin_active": "",
+                "_ws.expert.message": "This frame initiates the connection closing",
+                "_ws.expert.severity": "4194304",
+                "_ws.expert.group": "33554432"
+              }
+            }
+          },
+          "tcp.window_size_value": "10226",
+          "tcp.window_size": "10226",
+          "tcp.window_size_scalefactor": "-1",
+          "tcp.checksum": "0xa09c",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "Timestamps": {
+            "tcp.time_relative": "13.382000000",
+            "tcp.time_delta": "5.004715000"
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2024-03-25",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "\\Device\\NPF_Loopback"
+          },
+          "frame.encap_type": "15",
+          "frame.time": "Mar 25, 2024 20:35:20.944675000 SE Asia Standard Time",
+          "frame.time_utc": "Mar 25, 2024 13:35:20.944675000 UTC",
+          "frame.time_epoch": "1711373720.944675000",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.000015000",
+          "frame.time_delta_displayed": "0.000015000",
+          "frame.time_relative": "17.876223000",
+          "frame.number": "1065",
+          "frame.len": "64",
+          "frame.cap_len": "64",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "null:ipv6:tcp",
+          "frame.coloring_rule.name": "HTTP",
+          "frame.coloring_rule.string": "http || tcp.port == 80 || http2"
+        },
+        "null": {
+          "null.family": "24"
+        },
+        "ipv6": {
+          "ipv6.version": "6",
+          "ip.version": "6",
+          "ipv6.tclass": "0x00000000",
+          "ipv6.tclass_tree": {
+            "ipv6.tclass.dscp": "0",
+            "ipv6.tclass.ecn": "0"
+          },
+          "ipv6.flow": "0x025017",
+          "ipv6.plen": "20",
+          "ipv6.nxt": "6",
+          "ipv6.hlim": "128",
+          "ipv6.src": "::1",
+          "ipv6.addr": "::1",
+          "ipv6.src_host": "::1",
+          "ipv6.host": "::1",
+          "ipv6.dst": "::1",
+          "ipv6.addr": "::1",
+          "ipv6.dst_host": "::1",
+          "ipv6.host": "::1"
+        },
+        "tcp": {
+          "tcp.srcport": "55156",
+          "tcp.dstport": "80",
+          "tcp.port": "55156",
+          "tcp.port": "80",
+          "tcp.stream": "2",
+          "tcp.completeness": "28",
+          "tcp.completeness_tree": {
+            "tcp.completeness.rst": "0",
+            "tcp.completeness.fin": "1",
+            "tcp.completeness.data": "1",
+            "tcp.completeness.ack": "1",
+            "tcp.completeness.syn-ack": "0",
+            "tcp.completeness.syn": "0",
+            "tcp.completeness.str": "·FDA··"
+          },
+          "tcp.len": "0",
+          "tcp.seq": "957",
+          "tcp.seq_raw": "3912855818",
+          "tcp.nxtseq": "957",
+          "tcp.ack": "3839",
+          "tcp.ack_raw": "4244027460",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x0010",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ece": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "0",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······A····"
+          },
+          "tcp.window_size_value": "10215",
+          "tcp.window_size": "10215",
+          "tcp.window_size_scalefactor": "-1",
+          "tcp.checksum": "0xa0a7",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "Timestamps": {
+            "tcp.time_relative": "13.382015000",
+            "tcp.time_delta": "0.000015000"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.acks_frame": "1064",
+            "tcp.analysis.ack_rtt": "0.000015000"
+          }
+        }
+      }
+    }
+  }
+]
